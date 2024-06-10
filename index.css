@@ -1,0 +1,286 @@
+:root {
+  --default-font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto,
+    Ubuntu, "Helvetica Neue", Helvetica, Arial, "PingFang SC",
+    "Hiragino Sans GB", "Microsoft Yahei UI", "Microsoft Yahei",
+    "Source Han Sans CN", sans-serif;
+}
+
+.main-container {
+  overflow: hidden;
+}
+
+.main-container,
+.main-container * {
+  box-sizing: border-box;
+}
+
+input,
+select,
+textarea,
+button {
+  outline: 0;
+}
+
+.main-container {
+  position: relative;
+  width: 100%;
+  height: 1024px;
+  margin: 0 auto;
+  background: rgba(255, 255, 255, 0);
+  overflow: hidden;
+}
+
+.image {
+  position: absolute;
+  width: 1526px;
+  height: 1039px;
+  top: 0;
+  left: 0;
+  background: url(./assets/images/8220d12c-9af2-4b1a-ad95-0d14fc618d9a.png) no-repeat center;
+  background-size: cover;
+  filter: blur(7.5px);
+}
+
+.chip-extraction {
+  position: absolute;
+  width: 145.843px;
+  height: 145.843px;
+  top: 78px;
+  left: 317px;
+  background: url(./assets/images/a078972a-4ef4-4598-9f5b-2751c9cdb704.png) no-repeat center;
+  background-size: cover;
+  z-index: 15;
+  overflow: hidden;
+}
+
+.rectangle {
+  position: absolute;
+  width: 695px;
+  height: 664px;
+  top: 170px;
+  left: 390px;
+  background: #ffffff;
+  z-index: 1;
+  border-radius: 33px;
+  box-shadow: 0 4px 4px 0 rgba(0, 0, 0, 0.02);
+}
+
+.flex-column-e {
+  position: absolute;
+  width: 569px;
+  height: 604px;
+  top: 21px;
+  left: 52px;
+  z-index: 16;
+}
+
+.union {
+  position: relative;
+  width: 30px;
+  height: 30.734px;
+  margin: 0 0 0 281px;
+  background: url(./assets/images/43869a47-ec8b-43bc-a6b0-926ddbe4b925.png) no-repeat center;
+  background-size: cover;
+  z-index: 16;
+}
+
+.onlipinion {
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+  position: relative;
+  width: 534px;
+  height: 110px;
+  margin: 42.266px 0 0 0;
+  color: #0e4c57;
+  font-family: Ubuntu, var(--default-font-family);
+  font-size: 48px;
+  font-weight: 500;
+  line-height: 55.152px;
+  text-align: left;
+  z-index: 7;
+}
+
+.rectangle-1 {
+  position: relative;
+  width: 308px;
+  height: 56px;
+  margin: 49px 0 0 0;
+  cursor: pointer;
+  background: rgba(173, 173, 173, 0.29);
+  border: 1px solid #3ca6a6;
+  z-index: 5;
+  border-radius: 40px;
+}
+
+.google-symbol {
+  position: absolute;
+  width: 30px;
+  height: 30px;
+  top: 12px;
+  left: 35px;
+  background: url(./assets/images/378b1dc4-0c58-410a-81ad-949d657c218e.png) no-repeat center;
+  background-size: cover;
+  z-index: 13;
+  overflow: hidden;
+}
+
+.login-google {
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+  position: absolute;
+  height: 23px;
+  top: 16px;
+  left: 87px;
+  color: #3ca6a6;
+  font-family: Ubuntu, var(--default-font-family);
+  font-size: 20px;
+  font-weight: 400;
+  line-height: 22.98px;
+  text-align: left;
+  white-space: nowrap;
+  z-index: 9;
+}
+
+.rectangle-2 {
+  position: relative;
+  width: 555px;
+  height: 58px;
+  margin: 26px 0 0 0;
+  background: rgba(173, 173, 173, 0.29);
+  border: 1px solid #3ca6a6;
+  z-index: 4;
+  overflow: hidden;
+  border-radius: 40px;
+}
+
+.email {
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+  position: absolute;
+  height: 23px;
+  top: 17px;
+  left: 24px;
+  color: #3ca6a6;
+  font-family: Ubuntu, var(--default-font-family);
+  font-size: 20px;
+  font-weight: 500;
+  line-height: 22.98px;
+  text-align: left;
+  white-space: nowrap;
+  z-index: 10;
+}
+
+.rectangle-3 {
+  position: relative;
+  width: 555px;
+  height: 58px;
+  margin: 23px 0 0 0;
+  background: rgba(173, 173, 173, 0.29);
+  border: 1px solid #3ca6a6;
+  z-index: 6;
+  overflow: hidden;
+  border-radius: 40px;
+}
+
+.senha {
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+  position: absolute;
+  height: 23px;
+  top: 17px;
+  left: 24px;
+  color: #3ca6a6;
+  font-family: Ubuntu, var(--default-font-family);
+  font-size: 20px;
+  font-weight: 500;
+  line-height: 22.98px;
+  text-align: left;
+  white-space: nowrap;
+  z-index: 11;
+}
+
+.vector {
+  position: absolute;
+  width: 30px;
+  height: 22.5px;
+  top: 18px;
+  left: 503px;
+  background: url(./assets/images/04371a5a-a4b1-4233-8887-76114ac62894.png) no-repeat center;
+  background-size: 100% 100%;
+  z-index: 18;
+}
+
+.rectangle-button {
+  position: relative;
+  width: 547px;
+  height: 50px;
+  margin: 38px 0 0 22px;
+  cursor: pointer;
+  background: #012e40;
+  border: none;
+  z-index: 3;
+  border-radius: 25px;
+}
+
+.span-entrar {
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+  position: absolute;
+  height: 28px;
+  top: 11px;
+  left: 221px;
+  color: #3ca6a6;
+  font-family: Ubuntu, var(--default-font-family);
+  font-size: 24px;
+  font-weight: 400;
+  line-height: 27.576px;
+  text-align: left;
+  white-space: nowrap;
+  z-index: 8;
+}
+
+.rectangle-button-4 {
+  position: relative;
+  width: 547px;
+  height: 50px;
+  margin: 13px 0 0 22px;
+  cursor: pointer;
+  background: #012e40;
+  border: none;
+  z-index: 2;
+  border-radius: 25px;
+}
+
+.span-cadastrar {
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+  position: absolute;
+  height: 28px;
+  top: 9px;
+  left: 209px;
+  color: #3ca6a6;
+  font-family: Ubuntu, var(--default-font-family);
+  font-size: 24px;
+  font-weight: 400;
+  line-height: 27.576px;
+  text-align: left;
+  white-space: nowrap;
+  z-index: 12;
+}
+
+.div-vector {
+  position: absolute;
+  width: 2.88%;
+  height: 3.01%;
+  top: 3.61%;
+  left: 91.8%;
+  background: url(./assets/images/75af7f5d-68ab-471a-84e9-8ab1bace32ad.png) no-repeat center;
+  background-size: 100% 100%;
+  z-index: 14;
+}
